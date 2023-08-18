@@ -1,0 +1,75 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  
+  background: linear-gradient(90.09deg, #9A99C6 20.79%, #C699B2 99.93%);
+
+
+
+  .cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cabecalho img{
+    height: 15vh;
+  }
+  button{
+    background-color: #7760CB;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+  }
+  #busca{
+    background-color: gray;
+  }
+
+
+
+  .lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80vw;
+    gap: 15px;
+    margin: 10px;
+    
+  }
+
+  .card-pokemon img{
+    height: 25vh;
+    background-color: #FFFFFF26;
+    border-radius: 75px;
+  }
+
+  .card-pokemon{
+    background-color: #95CEC4;
+    width: 15vw;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 12px;
+  }
+  .card-pokemon:hover{
+    width: 16vw;
+    box-shadow: 0px 3px 8px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+
+  button:hover{
+    letter-spacing: 2px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.466);
+    transition: 0.8s;
+    cursor: pointer;
+  }
+  
+}
